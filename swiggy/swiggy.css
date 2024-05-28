@@ -1,0 +1,682 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+}
+.wrapper{
+    height: 100%;
+    width: 100%;
+    /* background-color: yellow; */
+}
+.location{
+    height: 60px;
+    width: 100%;
+    /* background-color: chartreuse; */
+    display: flex;
+}
+.right{
+    height: 60px;
+    width: 20%;
+    /* background-color: orange; */
+    color: orangered;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-weight: 900;
+    /* padding-right: 1vw; */
+}
+.mid{
+    height: 60px;
+    width: 40%;
+    /* background-color: rgb(212, 57, 179); */
+    display: flex;
+    align-items: center;
+    padding-left: 4vw;
+}
+.left{
+    height: 60px;
+    width: 40%;
+    /* background-color: red; */
+    display: flex;
+}
+.button0{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.order{
+    height: 60%;
+    width: 100%;
+    /* background-color: deeppink; */
+}
+.food{
+    height: 40vh;
+    width: 100%;
+    /* background-color: lime; */
+    margin-bottom: 7vw;
+}
+.question{
+    height: 60px;
+    width: 100%;
+    /* background-color: darkblue; */
+    display: flex;
+}
+.dilivery{
+    height: 250px;
+    width: 100%;
+    /* background-color: violet; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.button1{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-left: 7vw;
+    font-size: 2.5vw;
+}
+button{
+ padding: 7.5px 50px;
+ color: grey;
+ border-radius: 11px;
+ border: 1px solid gray;
+}
+
+.order{
+    padding-left: 65vw;
+    padding-top: 4vw;
+    background-image: url(/roasted-butternut-squash-cream-soup-with-pumpkin-seeds.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+}
+.order,h1{
+    color: white;
+}
+.question,h2{
+    padding-left: 3.5vw;
+    padding-top: .6vw;
+    font-weight: 600;
+}
+.icon{
+    padding-left: 65vw;
+    padding-top: .6vw;
+    font-weight: 200;
+    font-size: x-large;
+    color: grey;
+}
+.pizza{
+    width: 20%;
+    height: 100%;
+    background-color: aqua;
+    background-image: url(Pizza.avif);
+    background-size: cover;
+    background-position: center;
+}
+.indian{
+    width: 20%;
+    height: 100%;
+    background-color: coral;
+    background-image: url(North_Indian_4.avif);
+    background-size: cover;
+    background-position: center; 
+}
+.burger{
+    width: 20%;
+    height: 100%;
+    background-color: deeppink;
+    background-image: url(Burger.avif);
+    background-size: cover;
+    background-position: center;
+}
+.chinese{
+    width: 20%;
+    height: 100%;
+    background-color: cornflowerblue;
+    background-image: url(Chinese.avif);
+    background-size: cover;
+    background-position: center;
+}
+/* .uppizza{
+    height: 75%;
+    width: 100%;
+    background-color: rgb(255, 0, 81);
+    background-image: url(Pizza.avif);
+    background-size: cover;
+    background-position: center;
+}
+.downpizza{
+    height: 25%;
+    width: 100%;
+    background-color: blueviolet;
+} */
+.mid,h5{
+    color: darkslategray;
+}
+.time{
+    height: 70vh;
+    width: 100%;
+     /* background-color: aqua; */
+}
+.mumbai{
+    height: 15%;
+    width: 100%;
+    /* background-color: chartreuse; */
+    display: flex;
+    
+}
+.mumbai,h3{
+    font-weight: 700;
+    padding-left: 3vw;
+    padding-top: .7vw;
+}
+.iicon{
+    padding-left: 56.1vw;
+    padding-top: .6vw;
+    font-weight: 200;
+    font-size: x-large;
+    color: grey;
+}
+.resturant{
+    height: 50%;
+    width: 100%;
+    /* background-color: gold; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.ladoo{
+    height: 100%;
+    width: 30%;
+    /* background-color: blueviolet; */
+    border-radius: 10px;
+    background-image: url(/ladoo.avif);
+    background-size: cover;
+    background-position: center;
+}
+.tea{
+    height: 100%;
+    width: 30%;
+    /* background-color: magenta; */
+    border-radius: 10px;
+    background-image: url(/tea.avif);
+    background-size: cover;
+    background-position: center;
+}
+.snacks{
+    height: 100%;
+    width: 30%;
+    /* background-color: blue; */
+    border-radius: 10px;
+    background-image: url(/snacls.avif);
+    background-size: cover;
+    background-position: center;
+}
+.work{
+    height: 35%;
+    width: 100%;
+    /* background-color: orange; */
+    justify-content: space-evenly;
+    display: flex;
+}
+.work1{
+    height: 100%;
+    width: 30%;
+    /* background-color: blueviolet; */
+}
+.work2{
+    height: 100%;
+    width: 30%;
+    /* background-color: chartreuse; */
+}
+.work3{
+    height: 100%;
+    width: 30%;
+    /* background-color: crimson; */
+}
+.img{
+    color: green;
+    padding-left: 3vw;
+    display: flex;
+}
+.add{
+    padding-left: 3vw;
+    color: gray;
+}
+.note1{
+    padding-left: .3vw;
+}
+.add1{
+    padding-left: 3vw;
+}
+.online-food{
+    height: 80vh;
+    width: 100%;
+    /* background-color: violet; */
+}
+.inf{
+    height: 8%;
+    width: 100%;
+    /* background-color: chartreuse; */
+    padding-left: 6vw;
+    padding-bottom: 4vw;
+    
+}
+.filter{
+    height: 8%;
+    width: 100%;
+    /* background-color: darkorange; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.inf,h1{
+    color: black;
+}
+.space{
+    height: 3%;
+    width: 100%;
+    /* background-color: deeppink; */
+}
+.discount{
+    height: 40%;
+    width: 100%;
+    /* background-color: deepskyblue; */
+    justify-content: space-evenly;
+    display: flex;
+}
+.hut{
+    height: 100%;
+    width: 23%;
+    background-color: darkcyan;
+    border-radius: 12px;
+    background-image: url(/pizza\ hut.avif);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+.wok{
+    height: 100%;
+    width: 23%;
+    /* background-color: aquamarine; */
+    border-radius: 12px;
+    background-image: url(/nation.avif);
+    background-size: cover;
+    background-position: center;
+}
+.UBQ{
+    height: 100%;
+    width: 23%;
+    background-color: crimson;
+    border-radius: 12px;
+    background-image: url(/UBQ.avif);
+    background-size: cover;
+    background-position: center;
+}
+.nation{
+    height: 100%;
+    width: 23%;
+    background-color: goldenrod;
+    border-radius: 12px;
+    background-image: url(/Mallu.avif);
+    background-size: cover;
+    background-position: center;
+}
+.hut,h1{
+    color: black;
+    font-weight: bold;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: x-large;
+}
+.details{
+    height: 50%;
+    width: 100%;
+    /* background-color: cornsilk; */
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.d1{
+    height: 100%;
+    width: 23%;
+    /* background-color: aqua; */
+    font-size: larger;
+    
+}
+
+
+.d2{
+    height: 100%;
+    width: 23%;
+    /* background-color: blue; */
+    font-size: larger;
+}
+
+.d3{
+    height: 100%;
+    width: 23%;
+    /* background-color: aquamarine; */
+    font-size: larger;
+}
+.d4{
+    height: 100%;
+    width: 23%;
+    /* background-color: cornflowerblue; */
+    font-size: larger;
+}
+.step2{
+    height: 30vh;
+    width: 100%;
+    /* background-color: aqua; */
+    
+    /* justify-content: space-evenly; */
+}
+.bn{
+    height: 100%;
+    width: 23%;
+    background-color: darkcyan;
+    border-radius: 12px;
+    background-image: url(/bnation.avif);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+.monginis{
+    height: 100%;
+    width: 23%;
+    background-color: aquamarine;
+    border-radius: 12px;
+    background-image: url(/monginis.avif);
+    background-size: cover;
+    background-position: center;
+}
+.dabba{
+    height: 100%;
+    width: 23%;
+    /* background-color: crimson; */
+    border-radius: 12px;
+    background-image: url(/dabba.avif);
+    background-size: cover;
+    background-position: center;
+}
+.domino{
+    height: 100%;
+    width: 23%;
+    background-color: goldenrod;
+    border-radius: 12px;
+    background-image: url(/domino.avif);
+    background-size: cover;
+    background-position: center;
+}
+/* .cold{
+    height: 50%;
+    width: 100%;
+    background-color: chartreuse;
+} */
+
+.A{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.B{
+    height: 100%;
+    width: 100%;
+    /* background-color: deeppink; */
+}
+.d11{
+    height: 100%;
+    width: 23%;
+    /* background-color: aqua; */
+    font-size: larger;
+    
+}
+
+
+.d22{
+    height: 100%;
+    width: 23%;
+    /* background-color: blue; */
+    font-size: larger;
+}
+
+.d33{
+    height: 100%;
+    width: 23%;
+    /* background-color: aquamarine; */
+    font-size: larger;
+}
+.d44{
+    height: 100%;
+    width: 23%;
+    /* background-color: cornflowerblue; */
+    font-size: larger;
+}
+.kulfi{
+    height: 50vh;
+    width: 100%;
+    /* background-color: indianred; */
+}
+.kulfi-a{
+    height: 60%;
+    width: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+
+}
+.kulfi-b{
+    height: 40%;
+    width: 100%;
+    /* background-color: chartreuse; */
+    display: flex;
+}
+.kulfii{
+    height: 100%;
+    width: 23%;
+    background-color: darkcyan;
+    border-radius: 12px;
+    background-image: url(/grameen.avif);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    margin-left: 2vw;
+}
+.king{
+    height: 100%;
+    width: 23%;
+    background-color: aquamarine;
+    border-radius: 12px;
+    background-image: url(/burger\ king.avif);
+    background-size: cover;
+    background-position: center;
+    margin-left: 3vw;
+}
+.d333{
+    height: 100%;
+    width: 23%;
+    /* background-color: aquamarine; */
+    font-size: larger;
+    margin-left: 1vw;
+}
+.d444{
+    height: 100%;
+    width: 23%;
+    /* background-color: cornflowerblue; */
+    font-size: larger;
+    /* margin-left: 4vw; */
+    padding-left: 4vw;
+}
+.show{
+    padding-left: 40vw;
+    border-radius: 10px;
+    margin-top: 1px;
+    color: white;
+}
+.p1{
+    margin-top: 1vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+.mmumbai{
+    height: 27vh;
+    width: 100%;
+    /* background-color: darkorange; */
+}
+.mmumbai1{
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.mmumbai2{
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1.5vw;
+}
+.mmumbai3{
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1.5vw;
+}
+.mmumbaii{
+    height: 27vh;
+    width: 100%;
+    /* background-color: darkorange; */
+}
+.mmumbai11{
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.mmumbai22{
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1.5vw;
+}
+.mmumbai33{
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1.5vw;
+}
+.mmuumbaii{
+    height: 27vh;
+    width: 100%;
+    /* background-color: darkorange; */
+}
+.mmuumbai11{
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.mmuumbai22{
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1.5vw;
+}
+.mmuumbai33{
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1.5vw;
+}
+.mmuumbbaii{
+    height: 27vh;
+    width: 100%;
+    /* background-color: darkorange; */
+}
+.mmuumbbai11{
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.mmuumbbai22{
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1.5vw;
+}
+.mmuumbbai33{
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1.5vw;
+}
+.mmuumbbaaii{
+    height: 27vh;
+    width: 100%;
+    /* background-color: darkorange; */
+}
+.mmuumbbaai11{
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.mmuumbbaai22{
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1.5vw;
+}
+.mmuumbbaai33{
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1.5vw;
+}
+.app{
+    height: 18vh;
+    width: 100%;
+    background-color: rgb(236, 231, 231);
+    display: flex;
+}
+.store{
+    height: 100%;
+    width: 40%;
+    /* background-color: chartreuse; */
+    padding-left: 3vw;
+    padding-top: 1vw;
+}
+.play-store{
+    height: 100%;
+    width: 50%;
+    /* background-color: darkorchid; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.google{
+    height: 60%;
+    width: 38%;
+    /* background-color: aqua; */
+    border-radius: 12px;
+    background-image: url(/play_store.avif);
+    background-size: cover;
+    background-position: center;
+    
+}
+.download{
+    height: 60%;
+    width: 38%;
+    /* background-color: coral; */
+    border-radius: 12px;
+    background-image: url(/app_store.avif);
+    background-size: cover;
+    background-position: center;
+}
+.contact{
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+}
